@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    --back-color:#dddbd1;
+    
+}
+.body{
+   display: flex;
+   justify-content: unset;
+    
+  
+}
+.left-section{
+    width: 55%;
+    /* overflow: scroll; */
+    
+    
+}
+.left-header{
+    display: flex;
+    justify-content:space-between;
+    background-color: var(--back-color);
+    position: sticky;
+    top: 0;
+    
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.479); */
+}
+.image{
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    margin: 10px 15px;
+    cursor: pointer;
+    
+}
+.icons{
+    display: flex;
+   align-items: center;
+   justify-content:space-between ;
+   margin: 5px 15px;
+   
+}
+.icon1{
+    margin: 10px 10px;
+}
+.mesege-field{
+    display: flex;
+ align-items: center;
+ /* margin-left: 5px; */
+ border-bottom: 1px solid var(--back-color);
+ cursor: pointer;
+}
+.mesege-field:hover{
+   background-color: var(--back-color);
+}
+.messege-section{
+    border-right: 1px solid var(--back-color);
+}
+.search{
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 154px;
+    
+}
+input{
+    border-radius: 24px;
+    height: 30px;
+    width: 300px;
+    text-align:center;
+    border: none;
+}
+button{
+    border: none;
+    background-color:#e0e0d3; 
+}
+p{
+    margin: 0;
+}
+small{
+    font-family: sans-serif;
+}
+
+.right-header{
+    display: flex;
+    justify-content:space-between;
+    background-color: var(--back-color);
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    border-left: .50px solid rgb(66, 64, 64);
+
+}
+.notified-messege{
+    background-color: rgb(136, 226, 226);
+    height: 70px;
+    padding-top: 15px;
+    position: sticky;
+    top: 69px;
+
+    
+}
+.right-header-icons{
+    display: flex;
+    flex-wrap: row;
+    margin: 10px 10px;
+    
+}
+.text-notified{
+    font-size: 17px;
+    color: hsl(0deg 0% 19% / 96%);
+    
+    margin-bottom: 1px;
+    
+}
+.notification-icon{
+    display: flex;
+    justify-content:stretch;
+    margin-left: 20px;
+    
+}
+.a-tag{
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.right-section{
+    width: 100%;
+     
+   
+ }
+.right-section-messeges{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url("/backround2.png");
+    position: fixed;
+}
+.messege-header-cross{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.index-chat{
+    border-radius: 24px;
+    width: 12px;
+    height: 18px;
+    background-color: chartreuse;
+    margin-left:290px ;
+    padding-left: 4px;
+    justify-content: end;
+   
+}
+.index-long{
+    background-color: chartreuse;
+    width: 12px;
+    height: 18px;
+    border-radius: 24px;
+    padding-left: 4px;
+   ;
+}
+/* right msg section */
+
+.date{
+    width: 73px;
+    height: 23px;
+    background-color: #ddffcc;
+    border-radius: 10px;
+    /* display: inline; */
+    margin-left: 350px;
+    padding-left: 12px;
+    
+}
+.tail-msg{
+    background-color: white;
+    width: 360px;
+    height: auto;
+    margin: 25px 55px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    position: relative;
+    
+
+} 
+.tail-msg::after{
+    content: " ";
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-top: 9px solid transparent;
+    border-left: 9px solid #fff;
+    bottom: 99%;
+    left: 1px;
+    margin-bottom: 1px;
+
+
+}
+.chat-image{
+    width: 350px;
+    height: 180px;
+    margin:4px 15px;
+    
+}
+.para{
+  margin-left: 25px;
+  margin-bottom: 96px;
+  font-family: sans-serif,monospace,fantasy;
+
+}
+.footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: var(--back-color);
+    width: 65%;
+    height: 70px;
+    margin-top: 23px;
+}
+.input-wats{
+    width: 80%;
+    height: 70%;
+    margin-top: 10px;
+    border: none;
+}
+.a-decoret{
+    text-decoration: none;
+}
+.a-decoret:hover{
+    text-decoration: underline #fff;
+      
+}
+svg{
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+}
